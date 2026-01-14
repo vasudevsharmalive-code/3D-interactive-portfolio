@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website! 🎉 This project showcases my journey as an **AI Enthusiast** and **Computer Science Engineer** with 1.5 years of experience in Development, DevOps & Database management. Built with cutting-edge web technologies, this portfolio demonstrates my skills through stunning 3D animations and interactive experiences.
 
 ### 🌐 Live Preview: [https://portfolio-vasusharma.netlify.app](https://portfolio-vasusharma.netlify.app)
-                      [vasusharma.vercel.app](vasusharma.vercel.app)
+### 🌐 Live Preview: [vasusharma.vercel.app](vasusharma.vercel.app)
 
 ## 👨‍💻 About Me
 
