@@ -306,7 +306,49 @@ export type Project = {
 };
 
 const projects: Project[] = [
-  // Add your projects here
+  {
+    id: "habitly",
+    category: "Full Stack Web App",
+    title: "Habitly",
+    src: `${BASE_PATH}/habitly/01.png`,
+    screenshots: ["01.png", "02.png"],
+    live: "https://habitly-74p.pages.dev/",
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.tailwind,
+        PROJECT_SKILLS.framerMotion,
+      ],
+      backend: [
+        PROJECT_SKILLS.supabase,
+      ],
+    },
+    content: (
+      <div>
+        <TypographyP>
+          <strong>Habitly</strong> is an efficient tool to track and manage your daily habits.
+          Built with a beautiful dark mode optimized interface and a calendar heatmap visualization
+          for tracking your progress.
+        </TypographyP>
+        <ProjectsLinks live="https://habitly-74p.pages.dev/" />
+        <TypographyH3>Key Features</TypographyH3>
+        <ul className="list-disc pl-6 space-y-2 mt-3">
+          <li>Beautiful calendar heatmap visualization</li>
+          <li>Track multiple habits with ease</li>
+          <li>Dark mode optimized interface</li>
+          <li>User authentication & personalized tracking</li>
+          <li>Clean, modern UI with smooth animations</li>
+        </ul>
+        <SlideShow
+          images={[
+            `${BASE_PATH}/habitly/01.png`,
+            `${BASE_PATH}/habitly/02.png`,
+          ]}
+        />
+      </div>
+    ),
+  },
 ];
 
 export default projects;
